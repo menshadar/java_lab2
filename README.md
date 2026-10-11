@@ -14,12 +14,12 @@
 (`gradle/libs.versions.toml`). Використовується лише стандартний `java.util.*`.
 
 ## Розрахунок варіанта
-Варіант: **V = N mod 3 = 2** (N - номер залікової книжки: _впишіть свій_).
+Варіант: **V = 14 mod 3 = 2** 
 
 ## Збірка та запуск тестів
-Потрібно: JDK 21+.
+Потрібно: JDK 17+.
 
 ```bash
-./gradlew build   # Windows: gradlew.bat build
-./gradlew test    # Windows: gradlew.bat test
+./gradlew build   
+./gradlew test    
 ```
